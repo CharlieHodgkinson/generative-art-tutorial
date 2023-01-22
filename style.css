@@ -1,0 +1,20 @@
+body{
+  margin:0;
+  overflow:hidden;
+}
+
+body > svg {
+  width:100vw;
+  height:100vh
+}
+
+circle {
+  stroke: DeepPink;
+  fill: none;   
+  stroke-width:2;
+}
+
+circle:nth-child(2n){stroke:#6ac}
+circle:nth-child(3n){stroke:#678}
+circle:nth-child(4n){stroke:#345}
+circle:nth-child(5n){stroke:#9ab}
