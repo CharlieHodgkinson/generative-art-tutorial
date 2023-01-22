@@ -2,7 +2,6 @@
 function removeAll() {
   document.getElementById("stage").innerHTML = "";
 }
-// removeAll();
 
 // calling my state svg
 let svg = document.getElementById("stage");
@@ -28,11 +27,6 @@ function drawCircles() {
   }
 }
 drawCircles();
-
-// var reGenTimer = window.setInterval(function () {
-//   removeAll();
-//   drawCircles();
-// }, 4000);
 
 document.addEventListener("click", function () {
   removeAll();
